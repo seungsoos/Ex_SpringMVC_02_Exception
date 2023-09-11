@@ -1,14 +1,13 @@
 package hello.exception.api;
 
 
-import hello.exception.exHandler.ErrorResult;
 import hello.exception.exception.UserException;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
@@ -36,3 +35,4 @@ public class ApiExceptionV2Controller {
         private String name;
     }
 }
+

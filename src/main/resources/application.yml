@@ -1,0 +1,13 @@
+server:
+  error:
+    include-exception: 'true'
+    include-binding-errors: never
+    whitelabel:
+      enabled: 'false'
+    include-message: always
+    include-stacktrace: never
+
+slack:
+  token: xoxb-5111679231430-5889607878753-osunrlYBhQR0BDR7V2sQlEyc
+  channel:
+    monitor: '#error-log'
